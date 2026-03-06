@@ -44,18 +44,35 @@ Projects will be submitted and autograded via **Gradescope**. If you are not alr
     - Note, your circuit implement will not follow the logic diagram below since the input lines are **inverted**. However, it will be similar by **double negation**.
     - Note, this implementation is the **preferred** implemetation of an **encoder** in Minecraft. We don't really need any other designs!
 - The following logic gate description may help you:
-![image](images/image3.png)
-- The truth table is also provided below:
-    | D0  | D1  | D2 | D3  | D4  | D5  | D6  | D7  | BIT 2  | BIT 1  | BIT 0  |
-    |----|----|----|----|----|----|----|----|----|----|----|
-    |  1  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |
-    |  0  |  1  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |
-    |  0  |  0  |  1  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  0  |
-    |  0  |  0  |  0  |  1  |  0  |  0  |  0  |  0  |  0  |  1  |  1  |
-    |  0  |  0  |  0  |  0  |  1  |  0  |  0  |  0  |  1  |  0  |  0  |
-    |  0  |  0  |  0  |  0  |  0  |  1  |  0  |  0  |  1  |  0  |  1  |
-    |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  0  |  1  |  1  |  0  |
-    |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  1  |  1  |
+<table>
+<tr>
+
+<td align="center" width="80%">
+<img src="images/image3.png" alt="Logic Diagram" width="100%">
+</td>
+
+<td width="20%">
+
+<table width="90%" cellpadding="0">
+<tr>
+<th>D0</th><th>D1</th><th>D2</th><th>D3</th><th>D4</th><th>D5</th><th>D6</th><th>D7</th><th>BIT 2</th><th>BIT 1</th><th>BIT 0</th>
+</tr>
+
+<tr><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td></tr>
+<tr><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td></tr>
+<tr><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td></tr>
+<tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td></tr>
+<tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+
+</table>
+
+</td>
+
+</tr>
+</table>
 
 <details>
     <summary><b>HINT 1:</b></summary>
@@ -67,15 +84,35 @@ Projects will be submitted and autograded via **Gradescope**. If you are not alr
     - The decoder will convert binary values **00, 01, 10, 11** to their **decimal representation**.
     - Only **one** of the outputs should be **ON** at a time.
     - You may break the redstone in the template.
-- The following logic gate description may help you:
-![image](images/image4.png)
-- The truth table is also provided below:
-    | BIT 1 | BIT 0  | D0  | D1  | D2 | D3 |
-    |----|----|----|----|----|----|
-    |  0  |  0  |  1  |  0  |  0  |  0  |
-    |  0  |  1  |  0  |  1  |  0  |  0  |
-    |  1  |  0  |  0  |  0  |  1  |  0  |
-    |  1  |  1  |  0  |  0  |  0  |  1  |
+- The following logic gate description and truth table may help you:
+
+<table>
+<tr>
+
+<td align="center" width="50%">
+
+<img src="images/image4.png" width="100%">
+
+</td>
+
+<td width="50%" align="center">
+
+<table width="100%" cellpadding="20">
+<tr>
+<th>BIT 1</th><th>BIT 0</th><th>D0</th><th>D1</th><th>D2</th><th>D3</th>
+</tr>
+
+<tr><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+
+</table>
+
+</td>
+
+</tr>
+</table>
 
 <details>
     <summary><b>HINT 2:</b></summary>
@@ -83,9 +120,14 @@ Projects will be submitted and autograded via **Gradescope**. If you are not alr
 </details>
 
 
-#### Note 2: Decoder Preferred Design
+<details>
+<summary><b>Note 2: Decoder Preferred Design</b></summary>
+
 - This is the preferred design for **Decoders** in Minecraft, since its vertical and we love vertical things. This specific design is a **3 to 8** decoder. Play around with it, and try to get a sense for how it works. You may use this design from now on!
+
 - How it works is basically: torches **invert** the signal while **repeaters** carry them. Place a torch for bits you expect to be **ON**, and a repeater for bits you expect to be **OFF**. The result is essentially **OR'd** together by the **glass tower** and then **inverted** again. It essentially follows the diagram above, except **De Morgan's Law** (we love De Morgan's Law!!).
+
+</details>
 
 
 ### Problem 3: Multiplexer (1 pt)
@@ -93,33 +135,94 @@ Projects will be submitted and autograded via **Gradescope**. If you are not alr
     - The **multiplexer** will allow you to select between which **input (of multiple)** to let through to the **output**.
     - The middle signal acts as the **select bit**, which allows you to toggle between letting **input A** or **input B** into the **output**.
     - When the **select bit** is **0 (OFF)**, **input A** is transmitted. When the **select bit** is **1 (ON)**, **input B** is transmitted.
-- The following logic gate description may help you:
-![image](images/image5.png)
+- The following logic gate description and table may help you:
 
-- The truth table is also provided below:
-    | A | B  | S  | OUTPUT |
-    |----|----|----|----|
-    |  0  |  X  |  0  |  0  |
-    |  1  |  X  |  0  |  1  |
-    |  X  |  0  |  1  |  0  |
-    |  X  |  1  |  1  |  1  |
+<table>
+<tr>
 
-#### Note 3A: Multiplexer Preferred Design
-- This is the preferred design for **Multiplexers** in Minecraft. This specific design is a **2 to 1** multiplexer with individual levers used for selecting which input to transmit. Note the mechanism by which it works: We are **cancelling** the input signal with a comparator on **subtract mode** using a **repeater** feeding into the side of the comparator. When the **repeater** is on, the input signal is blocked. Only when one of the **select** signals are **ON**, does the corresponding **repeater** turn **OFF** and the associated input signal is transmitted. Also note that in practice, if we had more inputs (e.g. 8 inputs), we would use a **decoder** to turn **ON** the appropriate **select** signal.
+<td align="center" width="50%">
+<img src="images/image5.png" alt="Multiplexer Logic Diagram" width="100%">
+</td>
 
-#### Note 3B: 8-bit Multiplexer
-- This is the same design of multiplexer but stacked up 7 times to create an **8-bit** multiplexer. The multiplexer works **independently** on each "level". Notice the **glass towers** transmitting the redstone signal up to each level.
+<td width="50%" align="center">
+
+<table width="100%" cellpadding="8">
+<tr>
+<th>A</th>
+<th>B</th>
+<th>S</th>
+<th>OUTPUT</th>
+</tr>
+
+<tr>
+<td align="center">0</td>
+<td align="center">X</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+
+<tr>
+<td align="center">1</td>
+<td align="center">X</td>
+<td align="center">0</td>
+<td align="center">1</td>
+</tr>
+
+<tr>
+<td align="center">X</td>
+<td align="center">0</td>
+<td align="center">1</td>
+<td align="center">0</td>
+</tr>
+
+<tr>
+<td align="center">X</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+</table>
+<details>
+<summary><b>Note 3A: Multiplexer Preferred Design</b></summary>
+
+- This is the preferred design for **Multiplexers** in Minecraft. This specific design is a **2 to 1** multiplexer with individual levers used for selecting which input to transmit.
+
+- Note the mechanism by which it works: We are **cancelling** the input signal with a comparator on **subtract mode** using a **repeater** feeding into the side of the comparator. When the **repeater** is on, the input signal is blocked.
+
+- Only when one of the **select** signals are **ON**, does the corresponding **repeater** turn **OFF** and the associated input signal is transmitted.
+
+- Also note that in practice, if we had more inputs (e.g. 8 inputs), we would use a **decoder** to turn **ON** the appropriate **select** signal.
+
+</details>
+
+<details>
+<summary><b>Note 3B: 8-bit Multiplexer</b></summary>
+
+- This is the same design of multiplexer but stacked up **7 times** to create an **8-bit multiplexer**.
+
+- The multiplexer works **independently** on each "level".
+
+- Notice the **glass towers** transmitting the redstone signal up to each level.
+
+</details>
 
 ## Now let's start building the ALU!
 
-The **ALU (Arithmetic Logic Unit)** is the first component of the **CPU** that we will build. The **ALU** performs basic arithmetic (addition, subtraction) and logic operations (not, and, nand, xor, etc.) on its **input operands**. The **ALU** takes in **two inputs** and a **control signal** telling the **ALU** which operation to select for **output**. See the diagram below:
-![image](images/image6.png)
+
+<!-- <img src="images/image6.png" width="50%"></img> -->
+| | |
+|---|---|
+| <img src="images/image6.png" width="1200"> | The **ALU (Arithmetic Logic Unit)** is the first component of the **CPU** that we will build. The **ALU** performs basic arithmetic (addition, subtraction) and logic operations (not, and, nand, xor, etc.) on its **input operands**. The **ALU** takes in **two inputs** and a **control signal** telling the **ALU** which operation to select for **output**. See the diagram to the left
+| Note, our **ALU** will only implement the **NOR, AND, XOR, RSH (right shift), ADD, and SUB** operations. We can derive all other operations (including **NOT, OR, NAND, etc.**) with just these operations. Refer to the image to the right for a rough logic diagram of the **ALU** we will build. | <img src="images/image7.png" width="1200"> |
 
 
-Note, our **ALU** will only implement the **NOR, AND, XOR, RSH (right shift), ADD, and SUB** operations. We can derive all other operations (including **NOT, OR, NAND, etc.**) with just these operations. Refer to the image below for a rough logic diagram of the **ALU** we will build:
-![image](images/image7.png)
-
-Let's start out by building the **8-bit logic gates**. I would highly recommend using **Worldedit** here or it might be painful lmao. Consider using the `//stack 7 up` command.
+Let's start out by building the **8-bit logic gates**. We would highly recommend using **Worldedit** here or it might be painful lmao. Consider using the `//stack 7 up` command.
 
 ### Problem 4: 8-bit NOR Gate (1 pt)
 - Stack a **NOR gate** **7 times** upwards to create an **8-bit NOR Gate**. Test with inputs to verify correct outputs.
@@ -134,14 +237,40 @@ Let's start out by building the **8-bit logic gates**. I would highly recommend 
 - Stack an **XOR gate** **7 times** upwards to create an **8-bit XOR Gate**. Test with inputs to verify correct outputs.
 - **Hint 6:** Single-layer **XOR Gate** provided.
 
-#### Note 6A: RSH (right shift) provided!
-- We've provided the **8-bit** right shift operation. Notice how the **7th output bit** is always **OFF**.
+<details>
+<summary><b>Note 6A: RSH (right shift) provided!</b></summary>
 
-#### Note 6B: CCA (carry cancel adder)
-- This is a **Carry Cancel Adder**, the *start of the art* implementation of an **8-bit adder** in Minecraft! You don't need to know how it works - but you will need to use it in the future.
+- We've provided the **8-bit** right shift operation.
 
-#### Note 6B: ADD/SUB operations provided!
-- We've provided the **ADD/SUB** operations with this modified **CCA**. Notice, we've added an **Adder Setting** signal. When the signal is **OFF**, the adder performs **addition**. When the signal is **ON**, the adder performs **subtraction** by **inverting input B** and turning on the **Carry In signal**, essentially applying **Two's Complement**. The design *slickly* **inverts B** by feeding **ON** values into an **XOR Gate** with **input B**. You will use this design to complete your **ALU** by using the `//copy` and `//paste` worldedit commands.
+- Notice how the **7th output bit** is always **OFF**.
+
+</details>
+
+<details>
+<summary><b>Note 6B: CCA (carry cancel adder)</b></summary>
+
+- This is a **Carry Cancel Adder**, the *start of the art* implementation of an **8-bit adder** in Minecraft!
+
+- You don't need to know how it works — but you will need to use it in the future.
+
+</details>
+
+<details>
+<summary><b>Note 6C: ADD/SUB operations provided!</b></summary>
+
+- We've provided the **ADD/SUB** operations with this modified **CCA**.
+
+- Notice, we've added an **Adder Setting** signal.
+
+- When the signal is **OFF**, the adder performs **addition**.
+
+- When the signal is **ON**, the adder performs **subtraction** by **inverting input B** and turning on the **Carry In signal**, essentially applying **Two's Complement**.
+
+- The design *slickly* **inverts B** by feeding **ON** values into an **XOR Gate** with **input B**.
+
+- You will use this design to complete your **ALU** by using the `//copy` and `//paste` worldedit commands.
+
+</details>
 
 ### Problem 7: Combining Operations (1 pt)
 - Use **Worldedit** to **copy & paste** the **NOR, AND, XOR, RSH, and ADD/SUB** operations so that they are **adjacent** with each other, with a **one-block gap** in between, in that **specific order**. Ensure that they are aligned with the **output lamps**.
