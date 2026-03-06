@@ -30,11 +30,10 @@ Projects will be submitted and autograded via **Gradescope**. If you are not alr
 
 * For any of the tasks, **DO NOT** destroy or move **ANY** of the **redstone lamps**. We hardcode the input/output locations for the autograder to test your builds. 
 * You may build outside of the **Gold Blocks**, but we always provide you with enough space to complete your build inside. 
-* The instructions for each of the problems will be located **here** in the **README.md**, because ~~i'm lazy~~ writing book and quills for every problem would have taken too long. In-game **problems**, **notes**, and **hints** correspond to descriptions in this **README.md**. You may expect future projects to be formatted in a similar manner.
+* The instructions for each of the problems will be located **here** in the **README.md**. In-game **problems**, **notes**, and **hints** correspond to descriptions in this **README.md**. You may expect future projects to be formatted in a similar manner.
 * This project will **heavily** rely on the use of **Worldedit**, as with most projects in the future. We recognize that this can get tedious, and we are always open to feedback on ways that we can improve the course and the projects. 
 * However, we also believe that in the context of building digital circuits in Minecraft for a **CPU**, understanding and being comfortable with using **worldedit** will be **instrumental**, and there's no way to get around this. Without **worldedit**, we'd have to provide you with largely filled-in templates for each problem, and there wouldn't be much to do (it also probably wouldn't be very fun). Our goal for you in this class is for you to essentially have placed **every block** in building a **CPU** with the assistance of **worldedit**. Of course, we won't have you do anything that is **too tedious** even with **worldedit**, like building the **Instruction Memory** or **RAM Unit**, which you will see in the future. 
 * Because of **Worldedit**, it may be very easy to accidentally destroy the input/output **redstone lamps**. Please be careful to make sure you *don't do this*, and if you accidentally do, use `//undo`.
-* You might want to add a **repeater** after the **adder** we provide you with in case the signal dies before reaching the lamps/outputs. You may have to do this for all parts after **Problem 7**. 
 
 ## Before we get to the ALU...
 
