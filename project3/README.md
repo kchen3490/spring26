@@ -6,23 +6,23 @@ This project involves building an **Arithmetic Logic Unit (ALU)** in Minecraft u
 
 
 ## Importing Projects
-To import the project, you need to download `project2 TEMPLATE.zip`, extract it, and move it into the `saves` folder of your Modrinth installation folder. The easiest way of doing this is the following:
+To import the project, you need to download `project3 TEMPLATE.zip`, extract it, and move it into the `saves` folder of your Modrinth installation folder. The easiest way of doing this is the following:
 
-1. Download `project2 TEMPLATE.zip` from this directory
-2. Locate your `./Downloads` folder and extract the contents of `project2 TEMPLATE.zip`
-3. Locate the `project2` folder INSIDE of the folder you extracted into
-4. Use `Ctrl + X` or `Cmd + X` on the `project2` folder to cut it, saving it into your clipboard
+1. Download `project3 TEMPLATE.zip` from this directory
+2. Locate your `./Downloads` folder and extract the contents of `project3 TEMPLATE.zip`
+3. Locate the `project3` folder INSIDE of the folder you extracted into
+4. Use `Ctrl + X` or `Cmd + X` on the `project3` folder to cut it, saving it into your clipboard
 5. Go to your Modrinth Launcher's and navigate to the CMSC389E instance we created during setup. Locate the button next to instance settings and click on **Open Folder**.
 ![image](images/image1.png)
-6. Navigate to the `saves` folder, and use `Ctrl + V` to paste `project2`
-7. Finally, click the `Play` button to open Minecraft, go to "Singleplayer", and you should see **Project 2** has been successfully imported!
+6. Navigate to the `saves` folder, and use `Ctrl + V` to paste `project3`
+7. Finally, click the `Play` button to open Minecraft, go to "Singleplayer", and you should see **Project 3** has been successfully imported!
 
 
 ## Submitting Projects
-Projects will be submitted and autograded via **Gradescope**. If you are not already in the **Gradescope**, the join code can be found in the syllabus. To submit the project, you will need to locate your `project2` world file, zip it into `project2.zip`, and submit it into the relevant Gradescope assignment. Here's a step-by-step:
+Projects will be submitted and autograded via **Gradescope**. If you are not already in the **Gradescope**, the join code can be found in the syllabus. To submit the project, you will need to locate your `project3` world file, zip it into `project3.zip`, and submit it into the relevant Gradescope assignment. Here's a step-by-step:
 
 1. Go to your Modrinth Launcher's and navigate to the CMSC389E instance we created during setup *(same as above)*. Locate the button next to instance settings and click on **Open Folder**.
-2. Go to the `saves` folder, right click on `project2`, and compress it to **ZIP File**. 
+2. Go to the `saves` folder, right click on `project3`, and compress it to **ZIP File**. 
 3. Go to the Gradescope assignment and upload the relevant **ZIP File**.
 
 
