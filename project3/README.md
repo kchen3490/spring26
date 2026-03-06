@@ -182,7 +182,7 @@ Let's start out by building the **8-bit logic gates**. I would highly recommend 
     - The autograder will only toggle **input A, input B, and opcode** levers for this part. You are expected to set the multiplexer and adder control signals based on the **opcode**.
 - **Hint 9:** 8-bit example of adding an **opcode decoder** to have the **ALU** perform operations **OR** when the opcode is **110**, and **NAND** when the opcode is **111**.
 - Your design should look something like this:
-![image](images/image10.png)
+![image](images/image10.jpg)
 - And now, we've finished building a fully functioning **ALU** that enables operation selection with **opcodes** (tell your friends how cool this is)! For the next project, we'll construct a **Register** file which will allow us to perform **ALU** operations in sequence by storing operation results in memory. We'll be able to compute the **Fibonacci sequence** up to 233 (**255** is the limit for 8 bits)!
 
 ඞ
