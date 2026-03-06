@@ -57,7 +57,10 @@ Projects will be submitted and autograded via **Gradescope**. If you are not alr
     |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  0  |  1  |  1  |  0  |
     |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  1  |  1  |
 
-- **HINT 1:** Place **redstone torches** on the **Green Wool** if you want a bit to be **ON** when the **input line** is **ON**.
+<details>
+    <summary><b>HINT 1:</b></summary>
+    Place <b>redstone torches</b> on the <b>Green Wool</b> if you want a bit to be <b>ON</b> when the <b>input line</b> is <b>ON</b>.
+</details>
 
 ### Problem 2: Decoder (1 pt)
 - Implement a **2 to 4 decoder**.
@@ -74,7 +77,10 @@ Projects will be submitted and autograded via **Gradescope**. If you are not alr
     |  1  |  0  |  0  |  0  |  1  |  0  |
     |  1  |  1  |  0  |  0  |  0  |  1  |
 
-- **HINT 2:** Connect the lines at the **Green Wool** with either a **redstone torch** or just by connecting the lines. Placing **redstone torches** on the **Green Wool** represents a **NOT Gate** connection, in contrast to just connecting the lines.
+<details>
+    <summary><b>HINT 2:</b></summary>
+    Connect the lines at the <b>Green Wool</b> with either a <b>redstone torch</b> or just by connecting the lines. Placing <b>redstone torches</b> on the <b>Green Wool</b> represents a <b>NOT Gate</b> connection, in contrast to just connecting the lines.
+</details>
 
 
 #### Note 2: Decoder Preferred Design
@@ -144,13 +150,10 @@ Let's start out by building the **8-bit logic gates**. I would highly recommend 
     - It may help to do this on the bottom level first, and then **stack it 7 times up**.
     - When **stacking**, it is benefical to stack components separately, otherwise there will be spacing issues (height 2 builds vs. height 3 builds). We suggest you stack the crossed wires and the logic gates separately  and (`//stack 7 up`)
 
-### ‼️PLEASE CONSIDER THE FOLLOWING NOTE: You might want to add a **repeater** after the **adder** we provide you with in case the signal dies before reaching the lamps/outputs. You may have to do this for all future parts.‼️
-
 - **Hint 7A:** Single-layer example of crossing wires to feed into **NAND** and **OR** gates.
 - **Hint 7B:** 8-bit example of crossing wires to feed into **NAND** and **OR** gates (i literally just used `//stack 7 up`)
 - We've essentially made a machine that takes in **two inputs** and computes a bunch of different operations with them! It should look something like the following image:
 ![image](images/image8.png)
-
 
 ### Problem 8: Selecting an Operation (1 pt)
 - We're almost there! We have a machine that can compute a bunch of operations from our two inputs, but what if we want to just select a single operation to perform? 
@@ -173,7 +176,7 @@ Let's start out by building the **8-bit logic gates**. I would highly recommend 
     |  100  |  ADD  |
     |  101  |  SUB  |
     - The rightmost bit of the opcode is **Opcode Bit 0**, since it is the least significant bit.
-    - Note, you may use the **Lapis (blue) blocks** as a reference for copy and pasting from **Problem 8** to **Problem 9**.
+    - Note, you may use the **Lapis (blue) blocks** as a reference for copy and pasting from **Problem 8** to **Problem 9**. **Be careful to use paste -a to ignore air blocks when pasting.**
     - Use the **preferred decoder design** from earlier in the project. Place a torch for bits you expect to be **ON**, and a repeater for bits you expect to be **OFF**. A more in-depth explanation of how the decoder works can be found in **Note 2**.
     - Note, for the **SUB** operation, you will also need to wire the decoded result into the **Adder Setting** (since we want it to be **ON** when doing subtraction). This also means that the wiring for **ADD** to select the **ADD/SUB** operation should not interfere with the **Adder Setting**, since we want it to be **OFF** when doing addition. 
     - The autograder will only toggle **input A, input B, and opcode** levers for this part. You are expected to set the multiplexer and adder control signals based on the **opcode**.
