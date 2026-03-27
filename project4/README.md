@@ -15,7 +15,8 @@ To import the project, you need to download `project4 TEMPLATE.zip`, extract it,
 5. Go to your Modrinth Launcher's and navigate to the CMSC389E instance we created during setup. Locate the button next to instance settings and click on **Open Folder**.
 ![image](images/image1.png)
 6. Navigate to the `saves` folder, and use `Ctrl + V` to paste `project4`
-7. Finally, click the `Play` button to open Minecraft, go to "Singleplayer", and you should see **Project 4** has been successfully imported!
+7. Finally, click the `Play` button to open Minecraft, go to "Singleplayer", and you should see **project 4** has been successfully imported!
+
 
 ## Submitting Projects
 Projects will be submitted and autograded via **Gradescope**. If you are not already in the **Gradescope**, the join code can be found in the syllabus. To submit the project, you will need to locate your `project4` world file, zip it into `project4.zip`, and submit it into the relevant Gradescope assignment. Here's a step-by-step:
