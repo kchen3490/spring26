@@ -307,7 +307,7 @@ Let's start out by building the **8-bit logic gates**. We would highly recommend
     - The rightmost bit of the opcode is **Opcode Bit 0**, since it is the least significant bit.
     - Note, you may use the **Lapis (blue) blocks** as a reference for copy and pasting from **Problem 8** to **Problem 9**. **Be careful to use paste -a to ignore air blocks when pasting.**
     - Use the **preferred decoder design** from earlier in the project. Place a torch for bits you expect to be **ON**, and a repeater for bits you expect to be **OFF**. A more in-depth explanation of how the decoder works can be found in **Note 2**.
-    - Note, for the **SUB** operation, you will also need to wire the decoded result into the **Adder Setting** (since we want it to be **ON** when doing subtraction). This also means that the wiring for **ADD** to select the **ADD/SUB** operation should not interfere with the **Adder Setting**, since we want it to be **OFF** when doing addition. 
+    - Note, for the **SUB** operation, you will need to put a redstone torch to turn on the **ADD/SUB** multiplexer, as well a redstone torch to turn on the red **INVERT B & CARRY IN** line. 
     - The autograder will only toggle **input A, input B, and opcode** levers for this part. You are expected to set the multiplexer and adder control signals based on the **opcode**.
 - **Hint 9:** 8-bit example of adding an **opcode decoder** to have the **ALU** perform operations **OR** when the opcode is **110**, and **NAND** when the opcode is **111**.
 - Your design should look something like this:
