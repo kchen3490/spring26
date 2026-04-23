@@ -5,16 +5,16 @@ Due: **Wednesday, December 17th, 2025 at 11:59PM** on **[Gradescope](https://www
 The **final project** will emcompass utilizing a finished CPU implementation in **Minecraft** to run a program of your choice. You will then submit a **2-3** paragraph report summarizing what you did. For more details on the report, see step 7 below
 
 ## Importing Projects
-To import the project, you need to download `projectfinal TEMPLATE.zip`, extract it, and move it into the `saves` folder of your Fabric installation folder. The easiest way of doing this is the following:
+To import the project, you need to download `projectfinal TEMPLATE.zip`, extract it, and move it into the `saves` folder of your Modrinth installation folder. The easiest way of doing this is the following:
 
 1. Download `projectfinal TEMPLATE.zip` from this directory
 2. Locate your `./Downloads` folder and extract the contents of `projectfinal TEMPLATE.zip`
-3. Locate the `projectfinal` inside of the folder you extracted into
-4. Use `Ctrl + X` on the `projectfinal` folder to cut it, saving it into your clipboard
-5. Go to your Minecraft Launcher and locate the **Installation Folder** for `fabric-loader-1.20.1`, similar to what you did during setup. Click on "Open installations folder"
+3. Locate the `projectfinal` folder INSIDE of the folder you extracted into
+4. Use `Ctrl + X` or `Cmd + X` on the `projectfinal` folder to cut it, saving it into your clipboard
+5. Go to your Modrinth Launcher's and navigate to the CMSC389E instance we created during setup. Locate the button next to instance settings and click on **Open Folder**.
 ![image](images/image1.png)
-5. Navigate to the `saves` folder, and use `Ctrl + V` to paste `projectfinal`
-6. Finally, run Minecraft, go to "Singleplayer", and you should see **Project 2** has been successfully imported!
+6. Navigate to the `saves` folder, and use `Ctrl + V` to paste `projectfinal`
+7. Finally, click the `Play` button to open Minecraft, go to "Singleplayer", and you should see **projectfinal** has been successfully imported!
 
 
 ## Submitting Projects
