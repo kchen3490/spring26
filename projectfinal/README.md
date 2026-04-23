@@ -1,6 +1,6 @@
 # CMSC389E Final Project
 
-Due: **Friday May 8th, 2025 at 11:59PM** on **[Gradescope](https://www.gradescope.com/courses/1240118/assignments/7536769/)**
+Due: **Friday May 8th, 2026 at 11:59PM** on **[Gradescope](https://www.gradescope.com/courses/1240118/assignments/7536769/)**
 
 The **final project** will emcompass utilizing a finished CPU implementation in **Minecraft** to run a program of your choice. You will then submit a **2-3** paragraph report summarizing what you did. For more details on the report, see step 7 below
 
