@@ -59,8 +59,7 @@ Your task will be to do the following:
 - Note: The assembly file you want to compile should be in a `programs` folder on the same level as `main.py`.
 
 ### 3. Move the schematic into your `./schematics` folder
-- You will need the **litematica** and **malilib** mods, which you should have installed during the **setup** project. If you don't have them, then refer to [setup/downloads](https://github.com/umd-cmsc389e/spring25/tree/main/setup). 
-- Navigate to your schematics folder, located in `.minecraft > schematics`. It should be on the same level where `saves` is. If you don't see a `schematics` folder, simply create it. 
+- Go to your Modrinth Launcher's and navigate to the CMSC389E instance we created during setup. Locate the button next to instance settings and click on **Open Folder**.  Navigate to your schematics folder. If you don't see a `schematics` folder, simply create it. 
 - Then, paste the produced schematic file (ex. `fibonacciprogram.schem`) into that directory, similar to how you imported the project world file into `saves`.
 
 ### 4. Paste the schematic into the completed CPU implementation
