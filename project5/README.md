@@ -1,6 +1,6 @@
 # CMSC389E Project 5 - The Program Counter
 
-Due: **Friday, November 14th, 2025 at 11:59PM** on **[Gradescope](https://www.gradescope.com/courses/1115053/assignments/7074257/)**
+Due: **Friday, April 24th, 2026 at 11:59PM** on **[Gradescope](https://www.gradescope.com/courses/1115053/assignments/7074257/)**
 
 This project involves building a fully functioning **program counter** in Minecraft using **redstone**! The goal is to integrate the program counter with an **ALU, Register File, and Instruction Memory** to perform sequential computations such as computing the *fibonacci sequence!*
 
