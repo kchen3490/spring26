@@ -49,7 +49,7 @@ Your task will be to do the following:
     - Compute the primes up to 255
     - Implement your favorite sorting algorithm (bubble/selection/insertion/quick, etc.)
     - Perform multiplication of two numbers
-    - Draw a smiley face
+    - ~~- Draw a smiley face~~**PLEASE DO NOT DO THIS (we've seen too many 😭)**
 - Use the following [instruction set](https://docs.google.com/spreadsheets/d/12urAGQ1eXuVUJTJ9l9LwMtBRvsr5gCwXs8DY92yWrZw/edit?usp=sharing) and example [programs](https://github.com/mattbatwings/BatPU-2/tree/main/programs) as reference
 
 > If you want to do something with character arrays, look more into matbatwings' readme. It has information on how to use character buffers. You don't need to worry about things like ASCII codes, you can simply use single characters directly in the .as file (the scripts will take care of that). In a way, the assembly is a bit more modern.
